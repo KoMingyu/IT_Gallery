@@ -3,7 +3,7 @@
     include "../db.php";
     include "../password.php";
 
-//POST로 받아온 아이디와 비밀번호가 비었담녀 알림창을 띄우고 전 페이지로 돌아갑니다.
+//POST로 받아온 아이디와 비밀번호가 비었다 알림창을 띄우고 전 페이지로 돌아갑니다.
 if($_POST["userid"] == "" || $_POST["userpw"] == ""){
     echo '<script> alert("아이디나 패스워드를 입력하세요"); history.back(); </script>';
 }else{

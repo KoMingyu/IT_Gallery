@@ -1,6 +1,7 @@
 <?php
 include "db.php"; ?> <!---db.php 연결-->
 
+<!--php 안에 html을 삽입 할 수 있다.-->
 <!DOCTYPE html>
 <html>
    <head>
@@ -10,7 +11,8 @@ include "db.php"; ?> <!---db.php 연결-->
     </head>
     <body>
         <div id="login_box">
-            <h1>로그인</h1>
+            <h2>로그인</h2>
+            <!--method: 전송방식(get/post) action:전송할 위치-->
             <form method="post" action="/login/login_ok.php">
                 <table align="center" border="0" cellspacing="0" width="300">
                     <tr>

@@ -1,5 +1,5 @@
 <?php
-    include "../db.php";
+    include "../db.php";    //db.php 연동
 ?>
 
 
@@ -10,6 +10,7 @@
         <title>회원가입 폼</title>
     </head>
     <body>
+        <!--method: 전송방식(get/post) action:전송할 위치-->
         <form method="post" action="member_ok.php">
             <h1>회원가입 폼</h1>
             <fieldset>
