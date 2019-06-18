@@ -4,7 +4,7 @@
     
     //'DB호스트주소','DB아이디','DB암호','DB이름'
     $db = new mysqli("localhost","root","1234","board");
-    $db->set_charset("utf-8");
+    $db->set_charset("utf8");
 
     function mq($sql)
     {

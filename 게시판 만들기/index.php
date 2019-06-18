@@ -3,11 +3,11 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
     <meta charset = "UTF-8">
     <title>게시판</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />    
+    <link rel="stylesheet" type="text/css" href="/게시판 만들기/css/style.css" />    
 </head>
 <body>
     <div id="board_area">
@@ -34,7 +34,7 @@
                     $title = $board["title"]; //$title의 변수안에 $board테이블의 title값을 저장
                     if(strlen($title)>30)
                     {
-                        $title = str_replace($board["title"],mb_substr($board["title"],0,30,"utf-8")."...",$board["title"]); //title이 30을 넘어서면 ...표시
+                        $title = str_replace($board["title"],mb_substr($board["title"],0,30,"UTF-8")."...",$board["title"]); //title이 30을 넘어서면 ...표시
                     }
             ?>
             
@@ -51,7 +51,7 @@
         </table>
         
         <div id="write_btn">
-            <a href="/page/board/write.php"><button>글쓰기</button></a>
+            <a href="/게시판 만들기/board/write.php"><button>글쓰기</button></a>
         </div>
     </div>
     
