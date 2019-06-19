@@ -20,10 +20,10 @@ IT 최신 정보 분류 및 개발자들의 정보, 개발자 토론을 위한 �
 # 역할 분류
 *Front end(HTHML5, CSS3, JavaScript), Server(AWS), DB(MySql)*
 
-1.MK - Server, DB
-2.DY - Server, DB
-3.BJ - Front end
-4.HM - Front end
+1. MK - Server, DB
+2. DY - Server, DB
+3. BJ - Front end
+4. HM - Front end
 
 # 개발 Tool
 
