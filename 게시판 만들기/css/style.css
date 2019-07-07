@@ -108,11 +108,42 @@ ul li {
 }
 
 
+/*게시판 read*/
+#board_read{
+    width : 900px;
+    position: relative;
+    word-break:break-all; /*줄바꿈 속성*/
+}
 
+#user_info{
+    font-size: 14px;
+}
+#user_info ul li{
+    float: left;
+    margin-left:10px;
+}
 
+#bo_line{
+    width:800px;
+    height:2px;
+    background: gray;
+    margin-top:20px;
+}
 
+#bo_content{
+    margin-top:20px;
+}
 
-
+#bo_ser{
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    right: 0;
+}
+#bo_ser > ul > li{
+    float:left;
+    margin-left:10px;
+}
 
 
 
